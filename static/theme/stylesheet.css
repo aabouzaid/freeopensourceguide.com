@@ -1,0 +1,456 @@
+/* General
+------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+.title {
+	padding: 10px 0 15px 0;
+	text-align: right;
+	font-family: 'Droid Arabic Kufi', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:23px;
+}
+.stitle {
+	padding: 10px 0 15px 0;
+	background: url(http://files.simplyubuntu.com/images/line.png) no-repeat 0 43px;
+	text-align: right;
+	border:none;
+	font-style: normal;
+	font-weight: 400;
+	font-size:22px;
+	font-family: 'Droid Arabic Kufi', Arial, sans-serif;
+	line-height: 1.4;
+}
+#content-area2 ul{
+	list-style-type:none;
+	list-style:none;
+	padding-right: 15px;
+}
+#content-area2 ul li{
+	list-style-type:none;
+	list-style:none;
+	background:url(http://i.imgur.com/rNIU5.png) no-repeat 100% 12px ;
+	border-bottom:1px dashed #EEE;
+	padding: 3px 20px 2px 0px;
+}
+.widget-content {
+	padding-bottom: 20px;
+}
+.seemore {
+	text-align: left;
+	padding-top: 6px;
+}
+.seemore a:active {
+	outline: 0;
+	position: relative;
+	right: 3px;
+	top:0px
+}
+a:hover img:hover {
+	border: none !important;
+	opacity: .8;
+	transition: opacity .5s linear;
+		-webkit-transition: opacity .5s linear;
+		-moz-transition: opacity .5s linear;
+		-o-transition: opacity .5s linear;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+/* Main Text
+------------------------------------------------------------- */
+.maintitle {
+	padding: 14px 0 12px 0;
+	border:none;
+	font-style: normal;
+	font-weight: 400;
+	font-size:20px;
+	font-family: 'Droid Arabic Kufi', Arial, sans-serif;
+}
+.maintext {
+	background: url(http://i.imgur.com/l9DyB.png) no-repeat;
+	direction:rtl;
+	text-align: justify;
+	font-size: 17px;
+	font-family: Arial, KacstOne;
+	line-height: 19pt;
+	padding: 5px 3px 0px 540px;
+	height: 309px;
+}
+/* 
+.maintext:hover {
+	background: url(http://i.imgur.com/GSZws.png) no-repeat center;
+	color: transparent;
+}
+------------------------------------------------------------- */
+
+
+/* Share Box
+------------------------------------------------------------- */
+#sharebox {
+	border:none;
+	text-align: center;
+	background: url(http://i.imgur.com/b50MA.png) no-repeat;
+	background-position:center;
+	height: 105px;
+	text-decoration: none;
+}
+#sharebox ul{
+	list-style-type:none;
+	margin-right: 210px;
+	border:none;
+}
+#sharebox ul li{
+	float:right;
+	margin-top:11px;
+	margin-left:55px;
+	background-image:url() ;
+	border:none;
+}
+/*#sharebox ul li a:hover{opacity :.8 
+border:none;
+}*/
+.goodreadssb a{
+	background-image:url(http://files.simplyubuntu.com/sharebox/goodreads_share.png) ;
+	width:65px;
+	height:82px; display:block;
+}
+.goodreadssb a:hover{
+	background-image:url(http://files.simplyubuntu.com/sharebox/goodreads_share.png) ;
+	width:65px;
+	height:82px; display:block;
+}
+.facebooksb a{
+	background-image:url(http://files.simplyubuntu.com/sharebox/facebook_share.png) ;
+	width:65px;
+	height:82px; display:block;
+}
+.facebooksb a:hover{
+	background-image:url(http://files.simplyubuntu.com/sharebox/facebook_share.png) ;
+	width:65px;
+	height:82px; display:block;
+}
+.twittersb a{
+	background-image:url(http://files.simplyubuntu.com/sharebox/twitter_share.png) ;
+	width:65px;
+	height:82px; display:block;
+}
+.twittersb a:hover{
+	background-image:url(http://files.simplyubuntu.com/sharebox/twitter_share.png) ;
+	width:65px;
+	height:82px; display:block;
+}
+.googlesb a{
+	background-image:url(http://files.simplyubuntu.com/sharebox/googleplus_share.png) ;
+	width:65px;
+	height:82px; display:block;}
+
+.googlesb a:hover{
+	background-image:url(http://files.simplyubuntu.com/sharebox/googleplus_share.png) ;
+	width:65px;
+	height:82px; display:block;}
+
+
+/* Ubuntu Features 
+This Section By: justine@gentlecode.net
+------------------------------------------------------------- */
+.testimonials {
+	position: relative;
+	padding: 10px 0 20px 0;
+}
+.testimonials:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 8px;
+	position: absolute;
+	top: -8px; left: 0;
+}
+.testimonials a.buttons {
+	display: block;
+	width: 28px;
+	height: 44px;
+	text-indent: -9999px;
+	position: absolute;
+	z-index: 1000;
+}
+.testimonials a.buttons.prev {
+	background: url(http://files.simplyubuntu.com/scripts/pikachoose/styles/prev.png) no-repeat;
+	top: 40px; left: 0px;
+	border: none;
+	opacity: 0.3;
+	filter:alpha(opacity=30); /* For IE8 and earlier */
+	transition: opacity .5s linear;
+		-webkit-transition: opacity .5s linear;
+		-moz-transition: opacity .5s linear;
+		-o-transition: opacity .5s linear;
+}
+.testimonials a.buttons.prev:hover {
+	background: url(http://files.simplyubuntu.com/scripts/pikachoose/styles/prev.png) no-repeat;
+	border: none;
+	opacity: 1;
+}
+.testimonials a.buttons.next {
+	background: url(http://files.simplyubuntu.com/scripts/pikachoose/styles/next.png) no-repeat;
+	top: 40px; right: 0px;
+	border: none;
+	opacity: 0.3;
+	filter:alpha(opacity=30); /* For IE8 and earlier */
+	transition: opacity .5s linear;
+		-webkit-transition: opacity .5s linear;
+		-moz-transition: opacity .5s linear;
+		-o-transition: opacity .5s linear;
+}
+.testimonials a.buttons.next:hover {
+	background: url(http://files.simplyubuntu.com/scripts/pikachoose/styles/next.png) no-repeat;
+	border: none;
+	opacity: 1;
+}
+.testimonials .carousel {
+	height: 124px;
+	overflow: hidden;
+	position: relative;
+	padding-left: 22px;
+}
+.testimonials .carousel .viewport {
+	float: left;
+	width: 815px;
+	height: 124px;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+.testimonials .carousel .viewport div.overview {
+	width: 1825px;
+	position: absolute;
+	top: 0; left: 0;
+}
+.testimonials .quote {
+	width: 258px;
+	float: left;
+	text-align: center;
+	margin: 0 21px 0 0;
+}
+.ftitle {
+	text-align: right;
+	display: block;
+	font: 'Ubuntu', Arial, sans-serif;
+	font-style: bold;
+	font-size: 16px;
+	border-bottom: 1px dotted #DFDFDF;
+	margin: 3px 70px 0 0;
+}
+.fbox {
+	text-align: justify;
+	font-size: 14px;
+	font-style: normal;
+	font: normal 'Ubuntu', Arial, sans-serif;
+	color: #4d4d4d;
+	border: none;
+	margin: 5px 70px 0 0;
+}
+/* self-clear floats */
+.group:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+
+/* Download Div
+------------------------------------------------------------- */
+#HTML1 a:hover {
+	border: none !important;
+}
+.dframe {
+	background: url(http://i.imgur.com/XPXP4.png) repeat-x left top,
+		url(http://i.imgur.com/XPXP4.png) repeat-x right bottom,
+		url(http://i.imgur.com/vsGRM.jpg) repeat;
+	direction:rtl;
+	font-size: 16px;
+	font-family: Arial, KacstOne, Serif;
+	text-align: justify;
+	line-height:18.5pt;
+	margin: 30px 0px 6px 0px;
+	padding: 30px 10px 0 0;
+	height: 300px; 
+}
+.getbutton {
+	margin: 27px 75px 0 0;
+}
+.supportfoss {
+	clear: left;
+	float: left;
+	margin-bottom: 1em;
+	margin-right: 1.5em;
+	margin-left: 5px;
+}
+
+
+/* Social Networks Icons (home page)
+------------------------------------------------------------- */
+#HTML6 {
+	margin-bottom: 40px;
+}
+#socialnetworks {
+	border:none;
+	height: 105px;
+	text-decoration: none;
+}
+#socialnetworks ul{
+	list-style-type:none;
+	border:none;
+}
+#socialnetworks ul li{
+	float:right;
+	margin-top:5px;
+	background-image:url() ;
+	border:none;
+}
+#socialnetworks ul li a:hover{
+	opacity : .8;
+	transition: opacity .5s linear;
+		-webkit-transition: opacity .5s linear;
+		-moz-transition: opacity .5s linear;
+		-o-transition: opacity .5s linear;
+border:none;
+}
+ .bbullet p{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/bbullet.png) ;
+	margin-top: 50px;
+	margin-right: 35px;
+	width:22px;
+	height:21px;
+	display:block;
+}
+ .goodreads a{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/goodreads.png) ;
+	margin-right: 75px;
+	width:85px;
+	height:100px;
+	display:block;
+}
+ .goodreads a:hover{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/goodreads.png) ;
+	width:85px;
+	height:100px; display:block;
+}
+.facebook a{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/facebook.png) ;
+	margin-right: 75px;
+	width:85px;
+	height:100px;
+	display:block;
+}
+ .facebook a:hover{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/facebook.png) ;
+	width:85px;
+	height:100px;
+	display:block;
+}
+ .twitter a{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/twitter.png) ;
+	margin-right: 75px;
+	width:85px;
+	height:100px;
+	display:block;
+}
+ .twitter a:hover{ background-image:url(http://files.simplyubuntu.com/socialnetworks/twitter.png) ;
+	width:85px;
+	height:100px;
+	display:block;
+}
+ .google a{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/googleplus.png) ;
+	margin-right: 75px;
+	margin-left: 40px;
+	width:85px;
+	height:100px;
+	display:block;
+}
+ .google a:hover{
+	background-image:url(http://files.simplyubuntu.com/socialnetworks/googleplus.png) ;
+	width:85px;
+	height:100px;
+	display:block;}
+
+/* Why Simply Ubuntu Book?
+------------------------------------------------------------- */
+#HTML2 {
+	margin-bottom: 10px;
+}
+#whythisbook {
+	border:none;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 25.5px;
+}
+
+
+/* Readers Quotations?
+old style http://i.imgur.com/8fTIt.png
+http://i.imgur.com/LKfwX.png
+http://i.imgur.com/KWRNN.png
+-------------------------*/
+#impressions ul{
+	list-style-type:none;
+	list-style:none;
+	padding-right: 15px;
+}
+#impressions ul li{
+	list-style-type:none;
+	list-style:none;
+	text-align: justify;
+	background:url(http://i.imgur.com/F2lT9.png) no-repeat 98% center ;
+	border-bottom:1px dashed #EEE;
+	padding: 16px 100px 14px 0px;
+	height: 65px;
+}
+
+
+/* Reviews
+-------------------------*/
+#reviews {
+	direction:rtl;
+	text-align: justify;
+	font-size: 15px;
+	font-family: Arial, KacstOne;
+	line-height: 28.5px;
+}
+#reviews ul{
+	list-style-type:none;
+	list-style:none;
+}
+
+#reviews ul li{
+	list-style-type:none;
+	list-style:none;
+	background:url(http://i.imgur.com/rNIU5.png) no-repeat 96% 13px ;
+	border-bottom:1px dashed #EEE;
+	padding: 2px 36px 2px 0px;
+}
+
+
+/* Share Book Logo
+-------------------------*/
+#HTML8 {
+	line-height: 22px;
+}
+
+
+/* Sponsors Logos
+-------------------------*/
+#sponsors ul{
+	display:inline;
+	list-style:none;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+#sponsors ul li{
+	display:inline;
+	list-style:none;
+	list-style-type:none;
+	padding: 0px 9px 0px 9px;
+}
+
